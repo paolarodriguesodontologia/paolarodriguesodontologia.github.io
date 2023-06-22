@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  color: black;
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: gray;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3018,7 +3018,8 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: #212529;
+  background-color: gray !important;
+  border-color: gray !important;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;

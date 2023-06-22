@@ -57,12 +57,25 @@ nav > * {
    color: #fff;
    background-color: black;
    border-color: black;
- }
+}
 
- .social-buttons {
+.social-buttons {
    margin-top: 50px;
-   width: 100%;
- }
+}
+
+.cta-social {
+   height: 3.5rem !important;
+   width: 3.5rem !important;
+}
+
+.cta-social > i {
+   width: 50%;
+}
+
+#phone-number {
+   margin-top: 2rem !important;
+   margin-bottom: -2rem !important;
+}
 
 
 /****************** Services ******************/
